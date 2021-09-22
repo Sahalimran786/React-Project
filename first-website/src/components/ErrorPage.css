@@ -1,0 +1,32 @@
+
+.errorContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background: rgb(230, 230, 230);
+}
+.errorContent h1{
+    font-size: 36px;
+}
+.errorContent p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:510px){
+    .errorContent h1{
+        font-size: 30px;
+    }
+    .errorContent p{
+        font-size: 18px;
+    }
+    }
+    @media screen and (max-width:380px){
+        .errorContent h1{
+            font-size: 26px;
+        }
+        .errorContent p{
+            font-size: 16px;
+        }
+        }

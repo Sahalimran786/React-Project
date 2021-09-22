@@ -1,0 +1,36 @@
+.staffPanel{
+    min-height: 70vh;
+    padding: 20px 10px;
+    /* background: linear-gradient(rgba(0, 72, 121, 0.7),rgba(0, 72, 121, 0.7)), url("/Img/staff/background.jpg"); */
+    background-color: azure;
+    margin-bottom: 50px;
+}
+.staffContainer{
+    max-width: calc(100% - 100px);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.staffContainer h2{
+    font-size: 45px;
+    margin: 50px 0px 50px 0px;
+    text-transform: uppercase;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 480px) {
+    .staffContainer {
+    max-width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .staffContainer h2 {
+        font-size: 30px;
+    }
+}

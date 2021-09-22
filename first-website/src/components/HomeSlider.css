@@ -1,0 +1,60 @@
+.owl-theme{
+    background-color: #222;
+    position: -webkit-sticky;
+}
+.item{
+    height: 90vh;
+    width: 100%;
+    margin: 0;
+}
+.owl-carousel .owl-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.owl-dots{
+    bottom: 2%;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.owl-theme .owl-dots .owl-dot span{
+    background-color: #444;
+}
+.owl-nav{
+    color: white;
+    font-size: 120px;
+    font-weight: bolder;
+}
+.owl-prev,.owl-next{
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    
+}
+.owl-prev{
+    left: 1%;
+    transition: all 0.3s ease;
+}
+.owl-prev span{
+margin-left: 50px;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+}
+.owl-next{
+    right: 1%;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width:900px) {
+    .owl-nav{
+        display: none;
+    }
+    .item{
+    height: 100vh;
+    width: 100%;
+}
+.item{
+    height: auto;
+}
+}

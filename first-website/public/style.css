@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --main-color: rgb(243, 242, 242);
+  --primary-color: #14181f;
+  --hover-color:#f1a400;
+  --placeholder-color: #14181f;
+}
+.button-large{
+    font-size: 18px;
+    padding: 12px 22px;
+    color: white;
+    border-radius: 5px;
+    background-color: #004879;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.button-large:hover{
+    background-color: var(--hover-color);
+    box-shadow: 2px 2px 5px #444;
+}
+.button-small{
+    font-size: 14px;
+    padding: 10px 16px;
+    color: white;
+    border-radius: 5px;
+    background-color: #004879;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.button-small:hover{
+    background-color: var(--hover-color);
+    box-shadow: 2px 2px 5px #444;
+}
